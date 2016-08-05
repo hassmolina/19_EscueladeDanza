@@ -1,0 +1,99 @@
+*{
+  font-family: latoHeavy;
+}
+/*NAVEGADOR*/
+ul li{
+  display: inline-block;
+  margin: 0px 30px 0px 70px;
+}
+li>a{
+  text-decoration: none;
+  color: rgb(83, 88, 95);
+}
+/*SECCION 1 BAILARINES*/
+.fondobailarines{
+  background-image: url(../img/dance_1.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.textogrande, .descripcionstudio, #botoninsc{
+  margin-left: 100px;
+}
+.textogrande{
+  font-size:250%;
+}
+#botoninsc, #botonofer, #botoninstr, #botonenv{
+  border: none;
+  padding: 20px;
+  color: rgb(83, 88, 95);
+  margin:30px 0px 0px 150px;
+  font-size: 20px;
+}
+.fondoazul, #botoninsc, #botonofer, #botoninstr, #botonenv{
+  background-color: #192951;
+}
+/*SECCION 2 GARIGOLEADO*/
+.trayectoria{
+  font-size: 20px;
+}
+.garigoleado{
+  width: 15%;
+  margin-top: -80px;
+}
+#botonofer, #botoninstr{
+  margin: 0;
+  padding: 20px 70px 20px 70px;
+}
+/* SECCION3 INSTRUCTORES*/
+.instructor1, .instructor2{
+  width: 50%;
+  height: 500px;
+  border: 1.5px solid #192951;
+}
+.instructor1{
+  float: left;;
+}
+#botoninstr{
+  position: relative;
+  bottom: 69px;
+}
+.poema, #title{
+  font-size: 40px;
+}
+/**/
+.directorio{
+  font-size: 13px;
+  margin-left: 10%;
+}
+#googleMap{
+  width: 50%;
+  height: 250px;
+}
+/**/
+.fondozapatillas{
+  background-image: url(../img/shoes_1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+}
+input{
+  display: flex;
+}
+#formulario, #botonenv{
+  margin-left: 20%;
+  padding: 15px 120px 15px 120px;
+}
+.iconospeque{
+  width: 6%;
+  position: relative;
+  bottom:45px;
+  right: 90px;
+}
+#title{
+  padding-bottom: 60px;
+}
+#botonenv{
+  margin-left: 100px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+/**/

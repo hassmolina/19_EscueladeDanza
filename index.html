@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+	<div class="container"><!--INICIA CONTAINER-->
+		<section>
+			<div class="row"><!--TITULO-->
+				<div class="col-12 text-center pt-5 text-blue">
+					<h1>ESCUELA DE DANZA</h1>
+				</div>
+			</div>
+			<div class="row"><!--MENU-->
+				<div class="col-12 text-center pt-5 pb-5">
+					<nav>
+						<ul>
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Clases</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contáctanos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+	</div><!--FINALIZA CONTAINER-->
+	<div class="container-fluid"><!--INICIA CONTAINER FLUID-->
+		<section class="fondobailarines"><!--FONDO IMAGEN BAILARINES-->
+			<div class="row"><!--TEXTO 1 EN IMAGEN-->
+				<div class="col-12 pt-5 textogrande text-gray">
+					<h2>STUDIO</h2>
+				</div>
+			</div>
+			<div class="row"><!--TEXTO 2 EN IMAGEN-->
+				<div class="col-12 text-gray descripcionstudio">
+					<p>Julliart Studios is the perfect place<br> to find your feet width
+					over 20<br> unique styles of dance and 80<br> teachers to choose from.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12"><!--BOTON EN IMAGEN-->
+					<button id="botoninsc" type="button" name="Inscribete">Inscríbete</button>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row"><!--DESCRIPCION DE LA ESCUELA DE DANZA-->
+				<div class="col-12 text-center pt-5 pb-5 trayectoria ">
+					<p>Julliart cuenta con una amplia trayectoria y reputacion, brindando<br>
+					una formación de excelencia a cientos de amantes de la danza.</p>
+				</div>
+			</div>
+			<div class="row"><!--DIVISION 1 -->
+				<div class="col-12 text-center">
+					<img class="garigoleado" src="img\decoration_1.png" alt="" />
+				</div>
+			</div>
+			<div class="row"><!--BOTON-->
+				<div class="col-12 text-center pb-5">
+					<button id="botonofer" type="button" name="button">Oferta de clases</button>
+				</div>
+			</div>
+		</section>
+		<section>
+		<div class="row">
+			<div class="col-12">
+				<img class="instructor1" src="img\instructor_4.jpg" alt="" />
+				<img class="instructor2" src="img\profesor_9.jpg" alt="" />
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<button id="botoninstr" type="button" name="button">Nuestros instructores</button>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row"><!--FRASE-->
+				<div class="col-12 text-center pb-5 poema">
+					<p>"La danza es un poema en el que cada movimiento es<br> una palabra."</p>
+				</div>
+			</div>
+		</section>
+		<section class="fondoazul">
+			<div class="row">
+				<div class="col-6 text-gray pt-5 directorio"><!--TEXTO ESTILO DIRECTORIO-->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+							esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+					<div class="row">
+						<div class="col-12 text-gray pt-5 pb-5 directorio">
+							<h3>Visítanos</h4>
+								<p>The Juilliard School<br>60 Lincoln Center Plaza<br>New York, NY 10023<br>(212) 7339-4726</p>
+						</div>
+					</div>
+				<div class="col-6"><!--MAPA-->
+					<div id="googleMap"></div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row"><!--FORMULARIO-->
+				<div class="col-5 text-center pt-5 pb-5 text-blue">
+					<div id="title">Contáctanos</div>
+						<div class="row">
+							<div class=col-12>
+							<form>
+								<input id="formulario" type="Nombre" placeholder="Nombre"><img class="iconospeque" src="img\iconos\avatar.png" alt="" />
+							  <input id="formulario" type="Email" placeholder="Email"><img class="iconospeque" src="img\iconos\envelope.png" alt="" />
+							  <input id="formulario" type="Mensaje" placeholder="Mensaje"><img class="iconospeque" src="img\iconos\edit.png" alt="" />
+							</form>
+								<button id="botonenv" type="button" name="Enviar">Enviar</button>
+							</div>
+						</div>
+				</div>
+				<div class="col-7"><!--FONDO ZAPATILLAS-->
+					<img src="img\shoes_!.jpg" alt="" />
+				</div>
+			</div>
+		</section>
+		<footer class="fondoazul pt-5" >
+			<div class="row"><!--PIE DE PAGINA-->
+				<div class="col-12 text-gray">
+					<p>Escuela de danza. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</div><!--FINALIZA CONTAINER-FLUID-->
+</body>
+</html>

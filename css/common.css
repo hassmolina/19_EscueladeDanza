@@ -1,0 +1,10 @@
+/*NAVEGADOR*/
+ul li{
+  display: inline-block;
+  margin: 0px 30px 0px 70px;
+}
+li>a{
+  text-decoration: none;
+  color: rgb(83, 88, 95);
+}
+  

@@ -1,0 +1,17 @@
+.fondo1{
+  background-color:
+}
+.fondobailar{
+  background-image: url(../img/dance_12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0% 0 25% 0%;
+}
+.fondoinsideimg{
+  margin: 50% 0px 50% 0px;
+  background-color: black;
+  opacity: 0.5;
+}

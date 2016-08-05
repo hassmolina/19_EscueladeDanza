@@ -1,0 +1,20 @@
+.fondo1{
+  background-color: #dee3df;
+}
+.fondogris{
+  background-color: #c4bcc6;
+  margin-left: -35px;
+  padding-bottom:2.42%;
+  margin-bottom: 3%;
+}
+.imgbailarines{
+  width:95%;
+  padding-left:10%;
+  height: 260px;
+}
+#buttonvermas{
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  padding: 13px 80px 13px 80px;
+}
